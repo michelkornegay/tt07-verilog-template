@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This board serves to mimic the response of a single digit output calculator.
 
 ## How to test
 
-Explain how to use your project
+Run project on the board by adjusting input switches 0-3 to determine arbitrary 1st input value of calculator. Switches 5-4 determine the operation + (add), - (subtract), /(divide), or *(multiply)
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Tiny Tapeout board 
