@@ -15,12 +15,12 @@
 // Modify the module contents to your needs.
 // ================================================
 
-module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+module top(input logic clk, input logic reset, input logic cyc_cnt[31:0], output logic passed, output logic failed);
    // Tiny tapeout I/O signals.
    logic [7:0] ui_in, uo_out;
    logic [7:0] uio_in, uio_out, uio_oe;
    logic [31:0] r;
-   always @(posedge clk) r <= $random();
+  // always @(posedge clk) r <= $random();
    assign ui_in = r[7:0];
    assign uio_in = 8'b0;
    logic ena = 1'b0;
